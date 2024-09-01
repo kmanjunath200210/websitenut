@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+main{
+    background-image: url(./workshopbg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    
+}
+header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: lightgreen;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li{
+    padding: 20px;
+}
+
+.text{
+    
+    position: relative;
+    width: 900px;
+    height: 500px;
+    top: 30%;
+    left: 20%;
+    
+    
+
+}
+.text h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 50px;
+    top: 5%;
+    left: 30%;
+}
+.text p{
+    text-align: center;
+    top: 40%;
+    position: absolute;
+    left: 30%;
+}
+.boxs{
+    display: flex;
+    text-align: center;
+}
+.box span{
+    
+    color: aliceblue;
+    padding: 20px;
+    margin: 30px 80px;
+    font-size: 100px;
+    
+}
+
+.box h1{
+   
+    
+    margin:50px 0 0 0;
+
+}
+.box p{
+    margin: 30px 10px 20px 10px;
+    font-size: large;
+    margin-bottom:50px ;
+}
+.box{
+    width: 350px;
+    height:auto;
+}
+.box1{
+    background-color: aquamarine;
+}
+.box2{
+background-color: green;
+
+}
+.box3{
+    background-color: rgb(134, 101, 57);
+}
+.box4{
+    background-color: palevioletred;
+}
+.text2{
+    text-align: center;
+    padding: 30px;
+    
+}
+.boxs1{
+    background-color:white;
+    height: 100vh;
+    text-align: center;
+    
+}
+.boxs1 .frist{
+    text-align: center;
+    padding: 70px 0 0 0px;
+    font-style: italic;
+    font-size: 30px;
+}
+.boxs1 .three{
+    text-transform: capitalize;
+    font-size: 50px;
+    padding: 20px 0 0 0;
+}
+.boxs1 .second{
+    padding: 20px;
+    font-style:oblique;
+    font-size: 30px;
+}
+.boximg{
+    background-color:burlywood;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+    margin: 20px;
+}
+.boximg img{
+    width: 60px;
+    height: 60px;
+}
+.boxess{
+    display: flex;
+    
+    padding:10px 50px 50px 100px;
+}
+.a1{
+    width: 200px;
+    height: 200px;
+    margin:50px;
+    
+}
+.a1 h1{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+}.a1 p{
+    padding: 20px;
+}
+.s1{
+    background-color: aquamarine;
+    height: 120vh;
+    text-align: center;
+    
+}
+.s1 .o{
+    font-style: italic;
+    font-size: 30px;
+    padding: 40px 0 0 0;
+}
+.s1 .b{
+    text-transform: capitalize;
+    font-size: 50px;
+    
+}
+.s1 .m{
+    padding: 10px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.m1{
+    display: flex;
+    padding:10px 50px 50px 50px;
+    
+    
+}
+.n2{
+    background-color: beige;
+    width: 1000px;
+    height: 500px;
+    border:2px solid black;
+    margin: 0 20px ;
+    border-radius: 50px 0px 50px 50px;
+}.l1{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 40px 20px 0 100px;
+    background-color: black;
+}
+.l1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.n2 p{
+    margin: 40px 20px;
+}
+.n2 h1{
+    
+    font-weight: bold;
+}.c{
+    font-size: 20px;
+}
+#ff{
+    display: flex;
+    
+
+}
+.f img{
+    height:auto;
+    width:100%;
+
+}
+#ff .f1{
+    height:100vh;
+    width: 60%;
+    
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.f1 h1{
+    text-transform: capitalize;
+    padding: 100px 0 20px 0px;
+    font-size: 40px;
+}
+.f1 p{
+    font-size: 20px;
+    font-style: inherit;
+
+}
+.f1 input{
+    margin: 70px;
+    height: 45px;
+    width: 400px;
+    border-color: aliceblue;
+}
+.f1 button{
+    background-color: rgb(202, 83, 83);
+    height: 200;
+    width: 250px;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: initial;
+    font-weight: bold;
+    color: white;
+}
+.f1 button:hover{
+    background-color:white;
+    cursor: pointer;
+    color: rgb(202,83,83);
+    border: 2px solid rgb(202, 83, 83);
+}
+#e{
+    background-color:seashell;
+    height: 30vh;
+    display: flex;
+}
+#e .ee{
+    
+    border-radius: 0%;
+    height: 150px;
+    width: 150px;
+    margin: 40px 40px 0 120px;
+    color:black;
+    text-align: center;
+    /* padding: 40px; */
+    
+}
+#e h1{
+    font-size:50px;
+
+}
+#e p{
+    font-style: italic;
+    font-size: 15px;
+}
+#v{
+    text-align: center;
+    height:auto;
+    width: 40wh;
+    font-size: 40px;
+}
+#v h1{
+    padding: 80px 30px;
+}
+#v iframe{
+    
+    height: 400px;
+    width: 700px;
+}
+#oo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#oo .tittle{
+    font-style: italic;
+}
+#oo .o1{
+    height: 80%;
+    width: 40%;
+    margin: 10px 90px 39px 90px;
+
+    /* border:2px solid red; */
+    text-align: left;
+}
+#oo .o2{
+    height: auto;
+    width: 40%;
+    margin: 10px 90px 39px 90px;
+
+    
+}
+.o1 .tittle{
+    
+    padding: 40px 0 0 0;
+    font-style: italic;
+    font-size: 20px;
+}
+.o1 .head{
+    
+    font-size: 40px;
+    font-weight: bold;
+}
+.o1 .des{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.o1 .head1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.o1 .des1{
+    padding:20px 200px 20px 0px ;
+    font-size: 20px;
+}
+.o1 .head2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.o1 .des2{
+    padding:20px 200px 20px 0px ;
+    font-size: 20px;
+}
+.o2 .tit1{
+    padding: 40px 0 0 0;
+    font-style: italic;
+    font-size: 20px;
+
+
+}.o2 .tit2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.o2 .tit3{
+    font-size: 20px;
+}
+.o2 .tit4{
+    height: 40px;
+    width: 300px;
+    text-align: left;
+    margin: 20px 30px 0px 0px;
+    background-color: white;
+    color: black;
+}
+.o2 button{
+    margin: 20px 20px 50px 0px;
+    width: 150px;
+    font-weight: bold;
+    background-color: rgb(25, 53, 25);
+    color: white;
+    
+    font-size: 20px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(10, 54, 54);
+    text-align: center;
+    padding: 30px 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+    
+
+
+    
+
+
+
+
+    
